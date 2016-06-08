@@ -1,5 +1,5 @@
 
-package com.hmkcode.junit;
+package com.hmkcode;
 
 import static org.junit.Assert.assertThat;
 
