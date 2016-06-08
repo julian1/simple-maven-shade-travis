@@ -1,3 +1,4 @@
+
 package com.hmkcode.junit;
 
 import static org.junit.Assert.assertThat;
@@ -24,7 +25,7 @@ public class MathTest {
    public Timeout globalTimeout = new Timeout(3000); // 3 seconds max per method tested
 
   
-  com.hmkcode.junit.Math math = new com.hmkcode.junit.Math();
+  com.hmkcode.Math math = new com.hmkcode.Math();
 
   
   @Test
