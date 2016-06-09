@@ -1,1 +1,11 @@
 language: java
+
+deploy:
+  provider: releases
+  api_key: "xxxx"
+  file: "target/simple-1.0-SNAPSHOT.jar"
+  skip_cleanup: true
+  on:
+    tags: true
+
+
